@@ -1,0 +1,105 @@
+/*===========================
+Tablet Layout
+==============================*/
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .inner-menu-area {
+        background: none;
+        min-height: auto;
+    }
+
+    .inner-menu-area::after {
+        background: none;
+    }
+
+    .mean-container .mean-nav {
+        margin-top: 0px;
+        width: 80%;
+    }
+
+    .logo-area {
+        padding-top: 14px;
+    }
+
+    .share-area {
+        padding-top: 22px;
+    }
+
+    #slider-area {
+        margin-top: 15px;
+    }
+
+    .inner-hero h2 {
+        font-size: 55px;
+    }
+
+}
+
+/*===========================
+Mobile Layout
+==============================*/
+@media only screen and (min-width:200px) and (max-width:480px) {
+    .mini-area {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mini-area ul,
+    .share-area ul {
+        text-align: center;
+    }
+
+    .search-area,
+    .logo-area {
+        width: 220px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .share-area {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .inner-hero h2 {
+        font-size: 30px;
+    }
+
+    .inner-hero {
+        padding-bottom: 13px;
+    }
+
+    #work-area {
+        padding: 18px 0;
+    }
+
+    .child-work {
+        width: 98%;
+        padding-top: 0;
+    }
+
+    .child-work h2 {
+        margin-bottom: 20px;
+    }
+
+    .child-footer {
+        width: 96%;
+    }
+
+    #footer-area {
+        padding-top: 28px;
+        padding-bottom: 6px;
+    }
+
+    .left-copyright {
+        width: 100%;
+    }
+
+    .left-copyright p {
+        margin-bottom: 0;
+    }
+
+    .right-copyright {
+        width: 100%;
+        text-align: left;
+    }
+}
